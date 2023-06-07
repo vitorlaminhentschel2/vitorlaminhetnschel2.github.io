@@ -1,0 +1,332 @@
+.menu{
+    height: 1300px;
+    width: 300px;
+    margin-top: -10px;
+    margin-left: -10px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 247, 247);
+}
+
+.span_menu_dashboard{
+     background-color: black; 
+     margin-top: 15px;
+     margin-left: 12px; 
+     color: white; 
+     border-radius: 10px; 
+     height: 45px; 
+     width: 240px;
+
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+}
+
+.span_menu{
+    margin-top: 15px;
+    margin-left: 12px; 
+    color: grey; 
+    border-radius: 10px; 
+    height: 45px; 
+    width: 240px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.topo{
+    margin-top: -1260px;
+    margin-left: 300px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.barra_pesquisa{
+    margin-left: 40px;
+    margin-top: -15px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    width: 400px;
+
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+}
+
+.user{
+    height: 20px;
+    width: 390px;
+    border-left: 1px solid black;
+    margin-left: 30px;
+    margin-top: -8px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nome_user{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto_guia{
+    height: 20px;
+    width: 130px;
+    margin-left: 355px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.quadrado_topo1{
+    background-color: rgb(247, 247, 247);
+    margin-left: 350px;
+    margin-top: 30px;
+    height: 200px;
+    width: 330px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cabecalho2{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    color: orange;
+}
+
+.quadrado_topo2{
+    background-color: rgb(247, 247, 247);
+    margin-left: 730px;
+    margin-top: -200px;
+    height: 200px;
+    width: 330px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.quadrado_topo3{
+    background-color: rgb(247, 247, 247);
+    margin-left: 1110px;
+    margin-top: -200px;
+    height: 200px;
+    width: 330px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.quadrado_topo4{
+    background-color: rgb(247, 247, 247);
+    margin-left: 1490px;
+    margin-top: -200px;
+    height: 200px;
+    width: 330px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.products{
+    background-color: rgb(247, 247, 247);
+    margin-left: 350px;
+    margin-top: 20px;
+    height: 200px;
+    width: 530px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho3{
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 500px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.bloco_product1{
+    height: 120px;
+    width: 220px;
+    margin-left: 30px;
+
+    display:  flex;
+    flex-direction: column;
+}
+
+.bloco_product2{
+    height: 120px;
+    width: 220px;
+    margin-left: 280px;
+    margin-top: -120px;
+
+    display:  flex;
+    flex-direction: column;
+}
+
+.cabecalho_bloco{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.transactions{
+    background-color: rgb(247, 247, 247);
+    margin-left: 350px;
+    margin-top: 20px;
+    height: 650px;
+    width: 530px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.linha_transactions1{
+    width: 470px;
+    height: 70px;
+    margin-left: 30px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.linha_transactions{
+    width: 470px;
+    height: 70px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.nome_produto{
+    width: 200px;
+    height: 70px;
+    margin-left: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.status_produto{
+    width: 200px;
+    height: 70px;
+    margin-left: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.analytics{
+    background-color: rgb(247, 247, 247);
+    margin-left: 900px;
+    margin-top: -870px;
+    height: 440px;
+    width: 920px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.numeros_lado_grafico{
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.meses_grafico{
+    width: 700px;
+    margin-left: 170px;
+    margin-top: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.orders{
+    background-color: rgb(247, 247, 247);
+    margin-left: 900px;
+    margin-top: 20px;
+    height: 410px;
+    width: 490px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.apps{
+    height: 300px;
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.numeros_order{
+    width: 300px;
+    margin-left: 120px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.want_more{
+    background-color: rgb(247, 247, 247);
+    margin-left: 1400px;
+    margin-top: -410px;
+    height: 410px;
+    width: 420px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
